@@ -156,5 +156,11 @@ main section {
     padding: 0 240px;
     margin-top: 48px;
 }
-
 /* Instagram section end */
+
+/* Latest deal section start */
+
+.email-container{
+    display: flex;
+}
+/* Latest deal section end */
