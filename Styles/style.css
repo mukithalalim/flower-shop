@@ -77,6 +77,7 @@ main {
 main section {
     margin-top: 128px;
 }
+/* Featured flower section start */
 
 .featured-flowers {
     padding: 30px 240px;
@@ -126,3 +127,7 @@ main section {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+/* Featured flower section end */
+
+/* Hot deal section start */
