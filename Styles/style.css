@@ -83,7 +83,7 @@ main section {
 /* Featured flower section start */
 
 .featured-flowers {
-    /* max-width: 1920px; */
+    max-width: 1920px;
 }
 
 .featured-flower-container {
@@ -105,7 +105,7 @@ main section {
 .flower-box {
     border-radius: 300px 300px 0px 0px;
     margin-bottom: 20px;
-    padding: 110px 75px 0 75px;
+    /* padding: 50px 50px 0 50px; */
    
 
 }
@@ -164,27 +164,29 @@ main section {
 .section-content {
     text-align: center;
 }
-
+.section-content > button{
+    margin-top: 30px;
+}
 /* Hot deal section end */
 
 /* Instagram section start */
+.instagram{
+    padding: 30px 150px;
+}
+
 .flower-container {
     display: flex;
     gap: 24px;
-    align-items: center;
-    padding: 0 240px;
     margin-top: 48px;
 }
-
 /* Instagram section end */
 
 /* Latest deal section start */
 .latest-deal {
     align-items: center;
-    max-width: 1140px;
-    margin: 128px 240px;
     background-color: #EFB5B0;
     padding-top: 120px;
+    margin: 128px 150px;
 }
 
 .email-container {
