@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 /* common shared styles */
 body {
     font-family: 'Lato', sans-serif;
@@ -39,18 +42,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 240px 0px 240px;
+    padding: 50px 240px 0 240px;
 }
 
 .banner-content {
-    max-width: 750px;
+    max-width: 730px;
 }
 
 .banner-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    margin: 0;
 }
 
 .banner-description {
@@ -58,8 +60,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin: 32px 0;
 }
 
 .banner-pic {
@@ -131,6 +132,14 @@ main section {
 
 /* Featured flower section end */
 
+/* Welcome section start */
+.welcome-picture {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Welcome section ends */
+
 /* Hot deal section start */
 .hot-deal {
     border-radius: 8px;
@@ -162,18 +171,19 @@ main section {
 /* Instagram section end */
 
 /* Latest deal section start */
-.latest-deal{
+.latest-deal {
     align-items: center;
-    /* max-width: 1140px; */
+    max-width: 1140px;
     margin: 128px 240px;
     background-color: #EFB5B0;
     padding-top: 120px;
 }
+
 .email-container {
     display: flex;
     gap: 16px;
     padding: 48px 287px 121px 287px;
-    
+
 }
 
 .email-container input {
@@ -182,7 +192,7 @@ main section {
     width: 700px;
     height: 64px;
     padding-left: 20px;
-    
+
 }
 
 /* Latest deal section end */
@@ -190,13 +200,15 @@ main section {
 /* Footer start */
 footer {
     background-color: #111010;
+    display: block;
 }
 
 .footer-title {
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
-    padding: 128px 832px 24px 832px;
+    text-align: center;
+    padding-top: 128px;
 }
 
 .footer-title span {
@@ -205,12 +217,13 @@ footer {
 
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     max-width: 625px;
-    padding: 0 648px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 24px;
 }
 
 .copyright {
@@ -218,9 +231,8 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    padding: 32px 783px 128px 783px;
+    padding-top: 32px;
+    padding-bottom: 128px;
 }
-
-
 
 /* Footer End */
