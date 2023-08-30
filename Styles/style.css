@@ -1,3 +1,4 @@
+/* Universal Styles */
 * {
     margin: 0;
 }
@@ -33,8 +34,7 @@ body {
     line-height: 30px;
 }
 
-/* header related styles start */
-
+/* header related styles start here*/
 .header {
     background: rgba(229, 84, 115, 0.10);
 }
@@ -68,9 +68,9 @@ body {
     max-width: 635px;
 }
 
-/* header related style ends */
+/* header related style ends here*/
 
-/* main section start */
+/* main section start here*/
 main {
     /* max-width: 1920px; */
     margin: 0 auto;
@@ -80,33 +80,35 @@ main section {
     margin-top: 128px;
 }
 
-/* Featured flower section start */
-
+/* Featured flower section start here*/
 .featured-flowers {
+    margin: 178px 240px;
     max-width: 1920px;
+    margin: 178px auto;
 }
 
-.featured-flower-container {
+.flower-container {
     display: flex;
     gap: 24px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 48px;
-    padding: 0 240px;
-}
-
-.flower-info {
-    /* max-width: 464px;
-    max-height: 538px; */
-    text-align: center;
-    display: block;
-
 }
 
 .flower-box {
+    border-radius: 5px;
+    background: #FFF;
+    display: block;
+    text-align: center;
+    max-width: 464px;
+    max-height: 538px;
+}
+
+.flowers {
+    width: 464px;
+    height: 538px;
     border-radius: 300px 300px 0px 0px;
     margin-bottom: 20px;
-    /* padding: 50px 50px 0 50px; */
-   
+
 
 }
 
@@ -134,11 +136,12 @@ main section {
 /* Featured flower section end */
 
 /* Welcome section start */
-.welcome-section{
+.welcome-section {
     max-width: 1120px;
     margin: 0 auto;
     margin-top: 100px;
 }
+
 .welcome-picture {
     display: block;
     margin: 0 auto;
@@ -164,13 +167,15 @@ main section {
 .section-content {
     text-align: center;
 }
-.section-content > button{
+
+.section-content>button {
     margin-top: 30px;
 }
+
 /* Hot deal section end */
 
 /* Instagram section start */
-.instagram{
+.instagram {
     padding: 30px 150px;
 }
 
@@ -179,6 +184,7 @@ main section {
     gap: 24px;
     margin-top: 48px;
 }
+
 /* Instagram section end */
 
 /* Latest deal section start */
