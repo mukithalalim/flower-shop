@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
 }
+
 /* common shared styles */
 body {
     font-family: 'Lato', sans-serif;
@@ -67,11 +68,11 @@ body {
     max-width: 635px;
 }
 
-/* header related style end */
+/* header related style ends */
 
 /* main section start */
 main {
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: 0 auto;
 }
 
@@ -82,30 +83,30 @@ main section {
 /* Featured flower section start */
 
 .featured-flowers {
-    padding: 30px 240px;
-
+    /* max-width: 1920px; */
 }
 
 .featured-flower-container {
     display: flex;
     gap: 24px;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 48px;
+    padding: 0 240px;
 }
 
 .flower-info {
-    max-width: 464px;
-    max-height: 538px;
+    /* max-width: 464px;
+    max-height: 538px; */
     text-align: center;
     display: block;
+
 }
 
 .flower-box {
-    width: 464px;
-    height: 538px;
     border-radius: 300px 300px 0px 0px;
     margin-bottom: 20px;
-
+    padding: 110px 75px 0 75px;
+   
 
 }
 
@@ -133,9 +134,16 @@ main section {
 /* Featured flower section end */
 
 /* Welcome section start */
+.welcome-section{
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 .welcome-picture {
     display: block;
     margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
 }
 
 /* Welcome section ends */
