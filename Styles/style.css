@@ -162,9 +162,27 @@ main section {
 /* Instagram section end */
 
 /* Latest deal section start */
-
+.latest-deal{
+    align-items: center;
+    /* max-width: 1140px; */
+    margin: 128px 240px;
+    background-color: #EFB5B0;
+    padding-top: 120px;
+}
 .email-container {
     display: flex;
+    gap: 16px;
+    padding: 48px 287px 121px 287px;
+    
+}
+
+.email-container input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    padding-left: 20px;
+    
 }
 
 /* Latest deal section end */
